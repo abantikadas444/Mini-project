@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz - LearnHub</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                LearnHub
+            </div>
+
+            <ul class="nav-links">
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="tutorials.html">Tutorials</a>
+                </li>
+
+                <li>
+                    <a href="quiz.html">Quizzes</a>
+                </li>
+
+                <li>
+                    <a href="progress.html">Progress</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section class="quiz-section">
+
+            <h1>HTML Quiz</h1>
+
+            <div class="quiz-card">
+
+                <h2 id="question">
+                    Loading question...
+                </h2>
+
+                <div class="options"></div>
+
+                <p id="result"></p>
+
+                <button
+                    id="next-button"
+                    class="btn"
+                    onclick="nextQuestion()"
+                    style="display: none;">
+                    Next
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="../js/quiz.js"></script>
+
+</body>
+
+</html>
